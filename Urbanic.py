@@ -104,7 +104,7 @@ while True:
 
             file = open(f"./Bills/{phone}.txt","a")
             file.write(f"\n{x}\nname        {name}\nphone        {phone}\nitem name        {items}\nItem Quantity        {itemq}\nAmount        {amt}\nTax        {tax}\nTotal        {total}\n")
-            pywhatkit.sendwhatmsg(f"+91{phone}",f"{bill}",16,1)
+            
     def addStock(name,stock):
         get = "SELECT * FROM products WHERE pro_name = %s"
         # da = (items)
