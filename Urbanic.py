@@ -4,7 +4,7 @@ import pywhatkit
 mydb = py.connect(
     host="localhost",
     user="root",
-    passwd="AWSgargatharv2010@gmail.com",
+    passwd="{Enter Yours}",
     database = "StockBillSystem",
 )
 productdet = []
