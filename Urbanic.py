@@ -157,4 +157,4 @@ while True:
 
         Get1(phone)
     else:
-        print("kya krna hai be")    
+        print("Please Try Again")    
